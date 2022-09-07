@@ -8,6 +8,11 @@ Bundler.require(*Rails.groups)
 
 module AppJob
   class Application < Rails::Application
+    # Cofigurar layout na parte de registros da minha aplicação
+    config.to_prepare do
+      Devise::RegistrationsController.layout "application"
+    end
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
