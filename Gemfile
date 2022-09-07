@@ -27,6 +27,8 @@ gem 'faker'
 gem 'pry'
 gem 'coderay'
 gem 'method_source'
+gem 'devise'
+gem 'net-smtp'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
