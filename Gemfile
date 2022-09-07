@@ -22,6 +22,12 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Gems adicionadas por Jesher
+gem 'faker'
+gem 'pry'
+gem 'coderay'
+gem 'method_source'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
