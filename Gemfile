@@ -29,6 +29,7 @@ gem 'coderay'
 gem 'method_source'
 gem 'devise'
 gem 'net-smtp'
+gem 'kaminari'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
